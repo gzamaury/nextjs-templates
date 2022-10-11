@@ -1,9 +1,12 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export const Links = () => (
   <ul>
     <li>
       <Link href="/">Home</Link>
+    </li>
+    <li>
+      <Link href="/nextjsHome">Next.js Home</Link>
     </li>
     <li>
       <Link href="/nextjsRouting">Next.js Routing Example</Link>
@@ -29,5 +32,8 @@ export const Links = () => (
     <li>
       <Link href="/typescript">Typescript Example</Link>
     </li>
+    <li>
+      <Link href="/primereactBasic">Primereact Basic Example</Link>
+    </li>
   </ul>
-)
+);
