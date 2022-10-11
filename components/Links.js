@@ -32,5 +32,8 @@ export const Links = () => (
     <li>
       <Link href="/typescript">Typescript Example</Link>
     </li>
+    <li>
+      <Link href="/primereactBasic">Primereact Basic Example</Link>
+    </li>
   </ul>
 );
