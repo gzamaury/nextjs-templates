@@ -5,4 +5,4 @@ export default {
   component: Home,
 };
 
-export const PrimereactBasic = () => <Home />;
+export const PrimeReactBasic = () => <Home />;

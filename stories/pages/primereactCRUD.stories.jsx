@@ -5,4 +5,4 @@ export default {
   component: Home,
 };
 
-export const PrimereactCRUD = () => <Home />;
+export const PrimeReactCRUD = () => <Home />;
