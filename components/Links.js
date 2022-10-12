@@ -33,10 +33,10 @@ export const Links = () => (
       <Link href="/typescript">Typescript Example</Link>
     </li>
     <li>
-      <Link href="/primereactBasic">Primereact Basic Example</Link>
+      <Link href="/primereactBasic">PrimeReact Basic Example</Link>
     </li>
     <li>
-      <Link href="/primereactCRUD">Primereact CRUD Example</Link>
+      <Link href="/primereactCRUD">PrimeReact CRUD Example</Link>
     </li>
   </ul>
 );

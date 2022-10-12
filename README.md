@@ -1,47 +1,42 @@
-# Example app with Storybook
+# This template ships an example Next.js app with Storybook + PrimeReact
 
-This example shows a default set up of Storybook using [storybook-addon-next](https://github.com/RyanClementsHax/storybook-addon-next). Included in this example are stories that demonstrate the ability to use Next.js features in Storybook.
+This example shows a default set up of Storybook using [storybook-addon-next](https://github.com/RyanClementsHax/storybook-addon-next). Included in this example are stories that demonstrate the ability to use Next.js and PrimeReact features in Storybook.
 
 ### TypeScript
 
 As of v6.0, Storybook has built-in TypeScript support, so no configuration is needed. If you want to customize the default configuration, refer to the [TypeScript docs](https://storybook.js.org/docs/react/configure/typescript).
 
-## Deploy your own
+## 🚅 Quick start
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-storybook)
+1.  **Create the application.**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-storybook&project-name=with-storybook&repository-name=with-storybook)
+    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
 
-## How to use
+    ```shell
+    # Clone the template
+    npx degit gzamaury/nextjs-templates my-new-project
+    ```
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+2.  **Install the dependencies.**
 
-```bash
-npx create-next-app --example with-storybook with-storybook-app
-```
+    Navigate into your new site’s directory and install the necessary dependencies.
 
-```bash
-yarn create next-app --example with-storybook with-storybook-app
-```
+    ```shell
+    # Navigate to the directory
+    cd my-new-project/
 
-```bash
-pnpm create next-app --example with-storybook with-storybook-app
-```
+    # Install the dependencies
+    npm install
+    ```
 
-### Run Storybook
+3.  **Open the source code and start editing!**
 
-```bash
-npm run storybook
-# or
-yarn storybook
-```
+    Open the `my-new-project` directory in your code editor of choice and building your first component!
 
-### Build Static Storybook
+4.  **Browse your stories!**
 
-```bash
-npm run build-storybook
-# or
-yarn build-storybook
-```
+    Run `npm run storybook` to see your component's stories at `http://localhost:6006`
 
-You can use [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) to deploy Storybook. Specify `storybook-static` as the output directory.
+## Preview live with [StackBlitz](https://stackblitz.com/github/gzamaury/nextjs-templates?title=gzamaury%20-%20Next.js%20Templates)
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/gzamaury/nextjs-templates?title=gzamaury%20-%20Next.js%20Templates)
